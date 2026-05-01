@@ -1,0 +1,32 @@
+.controls {
+    display: flex;
+    gap: 16px;
+}
+
+.controls button {
+    padding: 12px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#prevBtn, #nextBtn {
+    background-color: #e8edf2;
+    color: #1F4E79;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #d0dae6;
+}
+
+#flipBtn {
+    background-color: #1F4E79;
+    color: white;
+}
+
+#flipBtn:hover {
+    background-color: #2E74B5;
+}
